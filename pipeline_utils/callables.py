@@ -151,7 +151,7 @@ def _upload_to_s3(api_endpoint):
         role_name=Variable.get(key="snowflake_role_name"),
         db_name=Variable.get(key="snowflake_db_name"),
         staging_schema_name=Variable.get(key="snowflake_api_staging_schema_name"),
-        raw_schema_name=Variable.get(key="snowflake_apexedi_raw_schema_name"),
+        raw_schema_name=Variable.get(key="snowflake_api_raw_schema_name"),
         history_schema_name=Variable.get(key="snowflake_api_history_schema_name"),
     )
 
